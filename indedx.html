@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal de Asignaciones - Tecnología Web I</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f3f3f3;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077ff, #003f8a);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .estudiante {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contenido {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      display: flex;
+      gap: 30px;
+      max-width: 900px;
+      width: 100%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .texto h2 {
+      margin-top: 0;
+      color: #003f8a;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #0077ff;
+      font-weight: bold;
+    }
+
+    ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .foto {
+      width: 250px;
+      height: 250px;
+      border: 3px dashed #0077ff;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0077ff;
+      font-weight: bold;
+      background: #eaf2ff;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #003f8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer a {
+      color: #66c7ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .contenido {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .foto {
+        margin: 0 auto;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portal de Asignaciones - Tecnología Web I</h1>
+    <p class="estudiante">Estudiante: <strong>Jairo Rojas</strong></p>
+  </header>
+
+  <main>
+    <section class="contenido">
+      
+      <div class="texto">
+        <h2>Prácticas de la Materia</h2>
+        <ul>
+          <li><a href="#">A1 Práctica 1: Servidor Web</a></li>
+          <li><a href="#">A2 Práctica 2: P2</a></li>
+          <li><a href="#">A3 Investigación: Tecnologías Web e IA</a></li>
+        </ul>
+      </div>
+
+      <div class="foto">
+  <img src="c:\Users\HP\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C4B52B460910883BA5B2BFE7BACF0D95\Imagen de WhatsApp 2025-12-01 a las 22.18.21_619a2637.jpg" alt="Foto de Jairo" style="width:100%; height:100%; border-radius: 12px; object-fit: cover;">
+</div>
+
+
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2025 Jairo Rojas - Cochabamba, Bolivia |
+      <a href ="blank">Universidad UPDS - Sede Cochabamba</a>
+    </p>
+  </footer>
+
+</body>
+</html>
