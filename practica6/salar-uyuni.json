@@ -1,0 +1,35 @@
+{
+"destino": {
+"nombre": "Salar de Uyuni",
+"departamento": "Potosí",
+"pais": "Bolivia",
+"descripcion": "El Salar de Uyuni es el desierto de sal más grande del mundo y uno de los principales atractivos turísticos de Bolivia, famoso por su efecto espejo en temporada de lluvias.",
+"categoria": "Atracción natural",
+"imagen": "uyuni.jpg",
+
+"actividades": [
+"Fotografía con efecto espejo",
+"Recorridos en 4x4",
+"Visita a la Isla Incahuasi",
+"Observación del atardecer",
+"Tur nocturno de estrellas"
+],
+
+"horarios": {
+"todosLosDias": "08:00 - 18:00"
+},
+
+"precios": {
+"bolivianos": 20,
+"extranjeros": 50,
+"moneda": "BOB"
+},
+
+"recomendaciones": [
+"Llevar protector solar",
+"Usar lentes de sol",
+"Llevar ropa abrigada",
+"Visitar en época de lluvias para el efecto espejo"
+]
+}
+}
